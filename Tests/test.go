@@ -2,9 +2,12 @@ package main
 
 import "fmt"
 
-// Just an example
-
-
 func main() {
-	fmt.Printf("hello, world\n")
+	var (
+	name     string = "Prince Oberyn"
+	age      int    =  32
+	location string = "Dorne"
+	)
+	fmt.Printf("%s (%d) of %s", name, age, location)
 }
+
